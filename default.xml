@@ -501,8 +501,8 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Hybrid Repos -->
-  <project path="build" name="build" groups="pdk" remote="hybrid" revision="5.0" />
-   <copyfile src="core/root.mk" dest="Makefile" >
+  <project path="build" name="build" groups="pdk" remote="hybrid" revision="5.0" >
+   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/htc/m8" name="device_htc_m8" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="hybrid" revision="5.0" />
