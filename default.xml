@@ -424,7 +424,6 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
-  <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -510,6 +509,7 @@
   <project path="frameworks/base" name="frameworks_base" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" groups="pdk" remote="hybrid" revision="5.0" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="hybrid" revision="5.0 />
   <project path="kernel/htc/msm8974" name="kernel_htc_msm8974" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="manifest" name="manifest" remote="hybrid" revision="5.0" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="hybrid" revision="5.0" />
