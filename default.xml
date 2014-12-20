@@ -10,7 +10,7 @@
            review="review.androidopendevelopment.com" />
 
   <remote name="hybrid"
-            fetch="git://github.com/Hybrid-Rom/"
+            fetch="https://github.com/Hybrid-Rom"
             sync-j="8"
             revision="5.0" />
 
@@ -264,6 +264,7 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="AndroidOpenDevelopment/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="lp" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
@@ -294,7 +295,6 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="AndroidOpenDevelopment/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="lp" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="AndroidOpenDevelopment/android_frameworks_opt_vcard" groups="pdk-cw-fs" remote="github" revision="lp" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -504,12 +504,11 @@
    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/htc/m8" name="device_htc_m8" groups="pdk" remote="hybrid" revision="5.0" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" groups="pdk" remote="hybrid" revision="5.0" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="hybrid" revision="5.0 />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="kernel/htc/msm8974" name="kernel_htc_msm8974" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="manifest" name="manifest" remote="hybrid" revision="5.0" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="hybrid" revision="5.0" />
