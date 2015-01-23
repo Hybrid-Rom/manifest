@@ -541,4 +541,8 @@
   <project path="external/protobuf-c" name="AndroidOpenDevelopment/android_external_protobuf-c" remote="github" revision="lp" />
   <project path="packages/apps/BluetoothExt" name="AndroidOpenDevelopment/android_packages_apps_BluetoothExt" remote="github" revision="lp" />
   <project path="system/qcom" name="AndroidOpenDevelopment/android_system_qcom" groups="qcom" remote="github" revision="lp" />
+
+  <!-- Themes -->
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-12.0"/>
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-12.0"/>
 </manifest>
