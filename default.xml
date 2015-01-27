@@ -375,7 +375,6 @@
   <project path="packages/apps/Launcher3" name="AndroidOpenDevelopment/android_packages_apps_Launcher3" remote="github" revision="lp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="AndroidOpenDevelopment/android_packages_apps_Mms" remote="github" revision="lp" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -509,6 +508,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="hybrid" revision="5.0" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="hybrid" revision="5.0" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="hybrid" revision="5.0" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="hybrid" revision="5.0" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="hybrid" revision="5.0" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="hybrid" revision="5.0" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs" remote="hybrid" revision="5.0" />
