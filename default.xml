@@ -362,7 +362,6 @@
   <project path="packages/apps/Calculator" name="AndroidOpenDevelopment/android_packages_apps_Calculator" remote="github" revision="lp" />
   <project path="packages/apps/Calendar" name="AndroidOpenDevelopment/android_packages_apps_Calendar" remote="github" revision="lp" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="AndroidOpenDevelopment/android_packages_apps_Camera2" remote="github" revision="lp" />
   <project path="packages/apps/CellBroadcastReceiver" name="AndroidOpenDevelopment/android_packages_apps_CellBroadcastReceiver" remote="github" revision="lp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/DeskClock" name="AndroidOpenDevelopment/android_packages_apps_DeskClock" remote="github" revision="lp" />
@@ -502,6 +501,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="kernel/htc/msm8974" name="kernel_htc_msm8974" groups="pdk" remote="hybrid" revision="5.0" />
   <project path="manifest" name="manifest" remote="hybrid" revision="5.0" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="hybrid" revision="5.0" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="hybrid" revision="5.0" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="hybrid" revision="5.0" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="hybrid" revision="5.0" />
