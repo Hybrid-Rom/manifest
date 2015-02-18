@@ -1,8 +1,12 @@
-*Hybrid-Rom*
+Hybrid-Rom©
 ============
 
-Hybrid-ROM is a mixture of AOSP & CAF base with hardware support for various OEM chipsets
-such as QCOM OMAP Tegra, etc.
+Hybrid-ROM is a combination of AOSP & CAF base.It all started thanks to the efforts of 
+Android Open Development. Hybrid was made with simplicity and power in mind.
+My goal is a Operating System complete with everything I want & need,
+minus the bloat. There are features and code not implemented in Hybrid likely due to myself
+not seeing the need, but pull request are always welcome and will be considered.
+
 
 Getting Started
 ---------------
