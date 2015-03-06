@@ -10,7 +10,7 @@
            review="review.androidopendevelopment.com" />
 
   <remote name="hybrid"
-            fetch="git@github.com/Hybrid-Rom"
+            fetch="https://github.com/Hybrid-Rom"
             sync-j="8"
             revision="5.0" />
 
