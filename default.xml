@@ -10,7 +10,7 @@
            review="review.androidopendevelopment.com" />
 
   <remote name="hybrid"
-            fetch="https://github.com/Hybrid-Rom"
+            fetch="git@github.com/Hybrid-Rom"
             sync-j="8"
             revision="5.0" />
 
@@ -547,3 +547,4 @@
   <project path="external/protobuf-c" name="AndroidOpenDevelopment/android_external_protobuf-c" remote="github" revision="lp" />
   <project path="packages/apps/BluetoothExt" name="AndroidOpenDevelopment/android_packages_apps_BluetoothExt" remote="github" revision="lp" />
   <project path="system/qcom" name="AndroidOpenDevelopment/android_system_qcom" groups="qcom" remote="github" revision="lp" />
+</manifest>
