@@ -470,7 +470,7 @@
   <project path="system/media" name="AndroidOpenDevelopment/android_system_media" groups="pdk" remote="github" revision="lp" />
   <project path="system/netd" name="AndroidOpenDevelopment/android_system_netd" groups="pdk" remote="github" revision="lp" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="AndroidOpenDevelopment/android_system_vold" groups="pdk" remote="github" revision="lp" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="hybrid" revision="5.1" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
