@@ -22,7 +22,6 @@
 
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="AndroidOpenDevelopment/android_art" groups="pdk" remote="github" revision="lp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="AndroidOpenDevelopment/android_bootable_recovery" groups="pdk" remote="github" revision="lp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -495,6 +494,7 @@
   <project path="build" name="build" groups="pdk" remote="hybrid" revision="5.1" >
    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="art" name="art" groups="pdk" remote="hybrid" revision="5.1" />
   <project path="bionic" name="bionic" groups="pdk" remote="hybrid" revision="5.1" />
   <project path="device/htc/m8" name="device_htc_m8" groups="pdk" remote="hybrid" revision="5.1" />
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" groups="pdk" remote="hybrid" revision="5.1" />
