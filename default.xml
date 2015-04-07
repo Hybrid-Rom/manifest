@@ -5,8 +5,6 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <remote  name="aosp"
-           fetch=".." />
   <default revision="refs/tags/android-5.1.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -69,7 +67,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="AndroidOpenDevelopment/android_external_chromium_org" remote="github" revision="lp" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -192,7 +190,7 @@
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs" />
-  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />
+  <project path="external/libxml2" name="AndroidOpenDevelopment/android_external_libxml2" groups="pdk-cw-fs" remote="github" revision="lp" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" />
@@ -225,8 +223,6 @@
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
-  <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" />
