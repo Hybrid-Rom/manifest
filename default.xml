@@ -288,7 +288,7 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/ims" name="AndroidOpenDevelopment/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="github" revision="lp" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="hybrid" revision="5.1" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/wifi" name="AndroidOpenDevelopment/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="lp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
@@ -381,7 +381,6 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/SmartCardService" name="AndroidOpenDevelopment/android_packages_apps_SmartCardService" remote="github" revision="lp" />
-  <project path="packages/apps/SoundRecorder" name="AndroidOpenDevelopment/android_packages_apps_SoundRecorder" remote="github" revision="lp" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="AndroidOpenDevelopment/android_packages_apps_Stk" remote="github" revision="lp" />
