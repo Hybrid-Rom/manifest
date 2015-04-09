@@ -464,10 +464,10 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="system_core" groups="pdk" remote="hybrid" revision="5.1" />
-  <project path="system/extras" name="AndroidOpenDevelopment/android_system_extras" groups="pdk" remote="github" revision="lp" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="hybrid" revision="5.1" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="AndroidOpenDevelopment/android_system_media" groups="pdk" remote="github" revision="lp" />
-  <project path="system/netd" name="AndroidOpenDevelopment/android_system_netd" groups="pdk" remote="github" revision="lp" />
+  <project path="system/media" name="system_media" groups="pdk" remote="hybrid" revision="5.1" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="hybrid" revision="5.1" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="hybrid" revision="5.1" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
