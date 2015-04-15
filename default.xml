@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="LA.BF.1.1.1_rb1.18"/>
+
+  <remote fetch="git://codeaurora.org/"
+          name="caf" review="codeaurora.org"/>
+
+  <default remote="caf" 
+           revision="LA.BF.1.1.1_rb1.18"/>
+
+  <remote name="hybrid"
+            fetch="git@github.com:Hybrid-Rom/manifest.git"
+            sync-j="8"
+            revision="5.1" />
+
   <project groups="pdk" name="device/asus/deb"/>
   <project groups="pdk" name="device/asus/flo"/>
   <project groups="pdk" name="device/asus/flo-kernel"/>
