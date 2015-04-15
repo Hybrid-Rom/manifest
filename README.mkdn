@@ -1,0 +1,22 @@
+Hybrid-Rom© 
+
+Hybrid-ROM is a combination of CAF & AOSP base, while leaning
+further towards CodeAurora. It all started thanks to the
+efforts of Android Open Development. Hybrid was made with
+simplicity and power in mind. My goal is an Operating System 
+complete with everything I want & need, minus the bloat. There are 
+features and code not implemented in Hybrid likely due to myself not 
+seeing the need, but pull request are always welcome and will always be
+strongly considered.
+
+Getting Started 
+
+To get started, you'll need to get familiar with Git and Repo.
+To initialize your local repository using 
+hybrid source trees, use a command like this: 
+
+repo init -u git://github.com/Hybrid-Rom/manifest.git -b 5.1 
+
+Then to sync up:
+
+repo sync -j#  (#= number or cores supported by your build machine)
